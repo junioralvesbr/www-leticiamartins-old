@@ -74,7 +74,7 @@ export default function Home() {
             </p>
 
             <div className="mt-5 lg:mt-24">
-              <Link link="/aboutme" />
+              <Link link="/leticiamartins" />
             </div>
           </article>
         </section >
@@ -108,7 +108,7 @@ export default function Home() {
                   Organização de quartos, closets, cozinha, banheiro, lavanderia, home office e acessórios.
                 </p>
 
-                <Link link="/residencial" />
+                <Link link="/organizacaoresidencial" />
               </div>
             </div>
           </article>
@@ -178,7 +178,7 @@ export default function Home() {
                   Tenho uma equipe especializada em mudança residencial, pronta para te atender e minimizar suas preocupações e estresse na sua mudança.
                 </p>
 
-                <Link link="/posmudanca" />
+                <Link link="/organizacaoposmudanca" />
               </div>
 
             </div>
@@ -211,7 +211,7 @@ export default function Home() {
                   Organização de escritórios, lojas, ateliês, estoques e almoxarifados.
                 </p>
 
-                <Link link="/comercial" />
+                <Link link="/organizacaocomercial" />
 
               </div>
             </div>
