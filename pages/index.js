@@ -74,7 +74,7 @@ export default function Home() {
             </p>
 
             <div className="mt-5 lg:mt-24">
-              <Link link="/leticiamartins" />
+              <Link link="/sobremin" />
             </div>
           </article>
         </section >
