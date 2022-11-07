@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://leticiamartins.com.br
+
+# Sitemaps
+Sitemap: https://leticiamartins.com.br/sitemap.xml
