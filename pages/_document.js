@@ -10,6 +10,8 @@ export default function Document() {
           rel="stylesheet"
         />
 
+        <meta name="google-site-verification" content="GghVFBxAikIe_2o_ejIKVulvhSwG3cI5JAaAgl4OfXM" />
+
         <meta name="author" content="Junior Alves" />
         <meta name="copyright" content="Junior Alves" />
         <meta name="robots" content="all" />
