@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 export default function Comercial() {
   return (
     <>
+      <Head>
+        <title>Leticia Martins - Organização Comercial</title>
+      </Head>
+
       <header>
         <h1 className="text-center uppercase text-xl tracking-widest text-shadow font-bold py-10 md:py-20 md:text-4xl">
           Organização Comercial

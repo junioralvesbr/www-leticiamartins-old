@@ -10,6 +10,15 @@ export default function Document() {
           rel="stylesheet"
         />
 
+        <meta name="author" content="Junior Alves" />
+        <meta name="copyright" content="Junior Alves" />
+        <meta name="robots" content="all" />
+        <meta name="robots" content="index, follow" />
+        <meta name="description"
+          content="Site da Leticia Martins personal organizer. Profissional especializada em organização de ambientes residenciais e empresariais. Tudo sobre organização, mudança residencial, conforto e bem estar no seu lar. Planeje seu movel de forma funcional e com organização." />
+        <meta name="keywords"
+          content="Curso, organização, personal-organizer, curso-personal-organizer, organizadores, Minha casa organizada, mudança, mudança residencial, organização empresarial, organização de lojas, organização de vitrines, marcenaria inteligente, movel planejado" />
+
         {/* Favicon */}
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />

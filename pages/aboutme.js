@@ -1,4 +1,6 @@
+import Head from "next/head"
 import Image from "next/image"
+
 import { MdOutlineDoubleArrow } from 'react-icons/md'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Autoplay } from "swiper"
@@ -6,6 +8,10 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper"
 export default function AboutMe() {
   return (
     <>
+      <Head>
+        <title>Leticia Martins - Sobre mim</title>
+      </Head>
+
       <header className="relative h-screen">
         <figure className="relative w-full h-full">
           <Image
