@@ -160,7 +160,7 @@ export default function Home() {
               <div className="relative w-full h-[500px] max-w-4xl overflow-hidden md:max-w-full md:h-[700px]">
                 <Image
                   className="object-cover"
-                  src="/images/pos-mudanca.png"
+                  src="/images/pos-mudanca.jpg"
                   alt="Foto de organização pós mudança da Leticia Martins"
                   fill
                 />
