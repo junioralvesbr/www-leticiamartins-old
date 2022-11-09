@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 
-import { MdOutlineDoubleArrow } from 'react-icons/md'
+import { FaAngleDoubleDown } from 'react-icons/fa'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Pagination, Autoplay } from "swiper"
 
@@ -24,17 +24,21 @@ export default function AboutMe() {
           />
         </figure>
 
-        <div className="text-primary-color font-bold absolute bottom-28 left-4 p-4 bg-pattern bg-no-repeat bg-[length:150px] sm:left-10 md:bg-[length:217px] sm:py-14 sm:px-8 lg:bottom-1/3 lg:left-1/4">
+        <div
+          className="text-primary-color font-bold absolute bottom-28 left-4 p-4 bg-pattern bg-no-repeat bg-[length:150px] sm:left-10 md:bg-[length:217px] sm:py-14 sm:px-8 lg:bottom-1/3 lg:left-1/4"
+        >
           <p>Olá,</p>
           <h1 className="uppercase text-2xl md:text-4xl">Eu sou personal Organizer</h1>
           <p>Eu transformo ambientes em lugares aconchegantes que facilitam e simplificam o seu dia dia</p>
         </div>
 
-        <MdOutlineDoubleArrow
-          size={40}
-          color="#ffffff"
-          className="absolute bottom-14 left-2/4 translate-x-[-50%] animate-pulse rotate-90 lg:bottom-0"
-        />
+        <a href="#aboutme">
+          <FaAngleDoubleDown
+            size={40}
+            color="#ffffff"
+            className="absolute bottom-0 left-2/4 translate-x-[-50%] animate-bounce hidden lg:block lg:bottom-0"
+          />
+        </a>
       </header>
 
       <main>

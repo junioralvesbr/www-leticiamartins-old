@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic'
 const ReactPlayer = dynamic(import('react-player'), { ssr: false })
 
 import Link from '../components/Link'
-import { MdOutlineDoubleArrow } from 'react-icons/md'
+import { FaAngleDoubleDown } from 'react-icons/fa'
 
 import Marcenaria from '../components/Marcenaria'
 
@@ -29,17 +29,19 @@ export default function Home() {
           />
         </div>
 
-        <MdOutlineDoubleArrow
-          size={40}
-          color="#ffffff"
-          className="absolute bottom-0 left-2/4 translate-x-[-50%] animate-pulse rotate-90 hidden lg:block lg:bottom-0"
-        />
+        <a href="#aboutme">
+          <FaAngleDoubleDown
+            size={40}
+            color="#ffffff"
+            className="absolute bottom-0 left-2/4 translate-x-[-50%] animate-bounce hidden lg:block lg:bottom-0"
+          />
+        </a>
 
-      </header>
+      </header >
 
       <main>
         {/* About Me */}
-        <section id="about-me" className="py-5 flex flex-col items-center lg:flex-row-reverse md:justify-center">
+        <section id="aboutme" className="py-5 flex flex-col items-center lg:flex-row-reverse md:justify-center">
 
           <div className="relative w-[320px] h-[386px] md-[376px] md:h-[420px] lg:w-[467px] lg:h-[600px] lg:ml-10">
             <Image
@@ -74,14 +76,14 @@ export default function Home() {
             </p>
 
             <div className="mt-5 lg:mt-24">
-              <Link link="/sobremin" />
+              <Link link="/aboutme" />
             </div>
           </article>
         </section >
 
         <section>
           {/* Home organization */}
-          <article id="home-organization">
+          <article id="residencial">
             <div className="relative 
       before:bg-border-svg before:bg-repeat-x before:bg-position-mobile before:bg-size-mobile before:w-full before:h-5 before:absolute before:top-[-12px] before:z-10 md:before:bg-position-desktop md:before:bg-size-desktop
       after:absolute after:inset-0 after:bg-gradient-blue-mobile after:md:bg-gradient-blue-tablet"
@@ -108,7 +110,7 @@ export default function Home() {
                   Organização de quartos, closets, cozinha, banheiro, lavanderia, home office e acessórios.
                 </p>
 
-                <Link link="/organizacaoresidencial" />
+                <Link link="/residencial" />
               </div>
             </div>
           </article>
@@ -151,7 +153,7 @@ export default function Home() {
           </article >
 
           {/* Pos mudança */}
-          <article id="pos-mudanca">
+          <article id="posmudanca">
             <div className="relative 
       before:bg-border-svg before:bg-repeat-x before:bg-position-mobile before:bg-size-mobile before:w-full before:h-5 before:absolute before:top-[-12px] before:z-10 md:before:bg-position-desktop md:before:bg-size-desktop
       after:absolute after:inset-0 after:bg-gradient-blue-mobile after:md:bg-gradient-blue-tablet"
@@ -178,7 +180,7 @@ export default function Home() {
                   Tenho uma equipe especializada em mudança residencial, pronta para te atender e minimizar suas preocupações e estresse na sua mudança.
                 </p>
 
-                <Link link="/organizacaoposmudanca" />
+                <Link link="/posmudanca" />
               </div>
 
             </div>
@@ -211,7 +213,7 @@ export default function Home() {
                   Organização de escritórios, lojas, ateliês, estoques e almoxarifados.
                 </p>
 
-                <Link link="/organizacaocomercial" />
+                <Link link="/comercial" />
 
               </div>
             </div>
