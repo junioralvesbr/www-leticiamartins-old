@@ -4,7 +4,10 @@ import { SiGooglemaps } from 'react-icons/si'
 
 export default function Footer() {
   return (
-    <section className='py-7 bg-[#e7e7e7] relative'>
+    <section
+      id="contact"
+      className='py-7 bg-[#e7e7e7] relative'
+    >
 
       <nav className='flex flex-col gap-10 items-center sm:flex-row sm:justify-evenly sm:gap-0'>
 

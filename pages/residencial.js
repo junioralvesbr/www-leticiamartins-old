@@ -10,10 +10,13 @@ export default function Residencial() {
         <title>Leticia Martins - Serviço de Organização Residencial</title>
       </Head>
 
-      <main>
+      <header id="home">
         <h1 className="text-center uppercase text-xl tracking-widest text-shadow font-bold py-10 md:py-20 md:text-4xl">
           Organização Residencial
         </h1>
+      </header>
+
+      <main>
         <section>
           <article className="flex flex-col justify-center items-center gap-5 mb-10 md:flex-row md:gap-8">
 

@@ -12,7 +12,7 @@ export default function AboutMe() {
         <title>Leticia Martins - Sobre mim</title>
       </Head>
 
-      <header className="relative h-screen">
+      <header className="relative h-screen" id="home">
         <figure className="relative w-full h-full">
           <Image
             className="object-cover"
