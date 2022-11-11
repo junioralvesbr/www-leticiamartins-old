@@ -45,15 +45,15 @@ const menu = {
 
 export default function NavBar() {
   return (
-    <nav className="navbar bg-base-100 fixed z-50">
+    <nav className="navbar bg-base-100 fixed z-50 sm:px-6">
       <MobileMenu />
 
       <div className="flex-1">
-        <a
+        <Link
           href="/"
-          className="btn btn-ghost normal-case text-3xl font-Autography">
+          className="normal-case text-3xl font-Autography hover:text-fifth-color">
           Leticia Martins
-        </a>
+        </Link>
       </div>
 
       <DesktopMenu />
