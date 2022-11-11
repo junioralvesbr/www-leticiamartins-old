@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import NextLink from 'next/link'
 
 export default function Link({ link }) {
@@ -8,7 +7,7 @@ export default function Link({ link }) {
       className='w-36 h-10 bg-fifth-color text-primary-color flex justify-center items-center rounded font-bold hover:brightness-90 transition-all'
     >
       Saiba Mais
-      <Image src="/player.svg" alt="Player" className="ml-3" />
+      <img src="/player.svg" alt="Player" className="ml-3" />
     </NextLink>
   )
 }
