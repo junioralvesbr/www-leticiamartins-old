@@ -19,7 +19,7 @@ export default function PosMudanca() {
         </figure>
 
         <section
-          className='relative z-50 h-[60vh] max-w-5xl mx-auto flex flex-col justify-center sm:h-[50vh] lg:h-[80vh]'
+          className='relative z-30 h-[60vh] max-w-5xl mx-auto flex flex-col justify-center sm:h-[50vh] lg:h-[80vh]'
         >
 
           <h1 className='text-primary-color text-3xl text-shadow font-light mx-2 sm:mx-5 sm:text-5xl'>
