@@ -8,7 +8,7 @@ export default function PosMudanca() {
         <title>Leticia Martins - Organização de pós Mudança</title>
       </Head>
 
-      <header id="home">
+      <header id="inicio">
         <figure className='fixed inset-0 after:absolute after:inset-0 after:bg-transparency'>
           <Image
             className='object-cover'

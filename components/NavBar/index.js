@@ -50,7 +50,7 @@ export default function NavBar() {
 
       <div className="flex-1">
         <Link
-          href="/"
+          href={menu.inicio}
           className="normal-case text-3xl font-Autography hover:text-fifth-color">
           Leticia Martins
         </Link>
