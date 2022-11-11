@@ -29,7 +29,7 @@ const menu = {
     },
     {
       name: 'Marcenaria Inteligente',
-      path: '/marcenaria'
+      path: '/#marcenaria'
 
     },
   ],
