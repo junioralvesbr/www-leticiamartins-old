@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useState } from 'react'
 
 const menu = {
   inicio: '#inicio',
@@ -62,13 +63,26 @@ export default function NavBar() {
 }
 
 const MobileMenu = () => {
+  const [hidden, setHidden] = useState('hidden')
+
+  // Função necessária para arrumar um bug na tela de abrir o menu com o click em local errado no meio do hero
+  const showMenu = () => {
+    if (hidden === "hidden") {
+      setHidden('block')
+      return
+    }
+
+    setHidden('hidden')
+
+  }
+
   return (
     <div className="dropdown lg:hidden">
-      <label tabIndex={0} className="btn btn-ghost btn-circle">
+      <label tabIndex={0} className="btn btn-ghost btn-circle" onClick={() => showMenu()}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
       </label>
 
-      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className={`menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 ${hidden}`}>
         <li>
           <Link href={menu.home.path}>
             {menu.home.name}
