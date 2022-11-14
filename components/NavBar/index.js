@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Link from 'next/link'
 
 const menu = {
@@ -39,7 +40,7 @@ const menu = {
   },
   contact: {
     name: 'Contato',
-    path: '#contact'
+    path: '/#contact'
   },
 }
 
@@ -62,13 +63,14 @@ export default function NavBar() {
 }
 
 const MobileMenu = () => {
+
   return (
     <div className="dropdown lg:hidden">
       <label tabIndex={0} className="btn btn-ghost btn-circle">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
       </label>
 
-      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-compact dropdown-content mt-1 p-2 shadow bg-base-100 w-screen uppercase">
         <li>
           <Link href={menu.home.path}>
             {menu.home.name}
@@ -91,7 +93,7 @@ const MobileMenu = () => {
           <ul className="collapse-content">
             {menu.services.map((service, index) => (
               <li tabIndex={0} key={index}>
-                <Link href={service.path}>
+                <Link href={service.path} legacyBehavior>
                   {service.name}
                 </Link>
               </li>
