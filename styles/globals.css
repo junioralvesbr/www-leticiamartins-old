@@ -6,6 +6,7 @@
   @font-face {
     font-family: "Autography";
     src: url("/fonts/Autography.otf");
+    font-display: swap;
   }
 
   html,
