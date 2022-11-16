@@ -136,7 +136,10 @@ export default function Home() {
                   <img
                     src="/images/logo-curso-organize-a-sua-casa.png"
                     alt="Logo do curso organize a sua casa"
-                    className="w-full" />
+                    className="w-full"
+                    loading='lazy'
+                  />
+
                 </figure>
 
                 <p className="font-medium text-primary-color pb-8 max-w-[410px] 2xl:text-lg">

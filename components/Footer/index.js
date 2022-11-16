@@ -53,6 +53,7 @@ export default function Footer() {
               className='w-full'
               src="/images/instagram.svg"
               alt="Foto do instagram da Leticia Martins personal organizer"
+              loading='lazy'
             />
           </figure>
         </a>

@@ -21,9 +21,8 @@ export default function Marcenaria() {
           <Image
             className="object-cover"
             src="/images/marcenaria-inteligente.webp"
-            alt="Foto de organização pós mudança da Leticia Martins"
+            alt="Foto da marcenaria inteligente da Leticia Martins"
             fill
-            priority
           />
         </div>
 
