@@ -7,10 +7,12 @@ import WhatssApp from '../WhatsApp'
 export default function Layout({ children }) {
   const [scrollTop, setScrollTop] = useState(0)
 
+  // show whatsapp icon
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      setScrollTop(window.scrollY)
-    })
+    window.addEventListener('scroll',
+      () => setScrollTop(window.scrollY),
+      { passive: true }
+    )
   }, [])
 
   return (
