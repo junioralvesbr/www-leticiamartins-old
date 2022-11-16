@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 
@@ -14,6 +15,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Layout>
         <Component {...pageProps} />
+        <Analytics />
       </Layout>
     </>
   )
