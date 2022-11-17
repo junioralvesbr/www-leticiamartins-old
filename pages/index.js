@@ -16,7 +16,7 @@ export default function Home() {
         <title>Leticia Martins - Personal Organizer</title>
       </Head>
 
-      <header className='pt-16' id="inicio">
+      <header id="inicio">
         <div className="relative pb-[56.25%] overflow-hidden after:absolute after:inset-0">
           <ReactPlayer
             className="absolute inset-0"
