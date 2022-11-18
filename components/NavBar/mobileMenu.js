@@ -14,11 +14,11 @@ export default function MobileMenu({ menu }) {
   }
 
   return (
-    <div className='fixed z-50 bg-primary-color w-screen py-3 px-4 lg:hidden'>
+    <div className='fixed z-50 bg-primary-color w-screen pt-3 lg:hidden'>
 
       <Link
         href={menu.inicio.path}
-        className='font-Autography text-4xl hover:text-fifth-color cursor-pointer sm:px-4'
+        className='font-Autography text-4xl pl-4 hover:text-fifth-color cursor-pointer'
       >
         {menu.inicio.name}
       </Link>
