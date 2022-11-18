@@ -1,9 +1,8 @@
 
 import { useState, useEffect } from 'react'
-import NavBar from '../NavBar'
 import Footer from '../Footer'
+import NavBar from '../NavBar'
 import WhatssApp from '../WhatsApp'
-import Menu from '../Menu/indes'
 
 export default function Layout({ children }) {
   const [scrollTop, setScrollTop] = useState(0)
@@ -18,8 +17,7 @@ export default function Layout({ children }) {
 
   return (
     <>
-      {/* <NavBar /> */}
-      <Menu />
+      <NavBar />
       {children}
       <footer>
         <Footer />
