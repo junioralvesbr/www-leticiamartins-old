@@ -1,5 +1,13 @@
-import { Analytics } from '@vercel/analytics/react'
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 import Head from 'next/head'
+
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
+
+// gtag google analytics
+import * as gtag from '../lib/gtag'
+import GoogleAnalytics from '../components/GoogleAnalytics'
+
 import Layout from '../components/Layout'
 
 import '../styles/globals.css'
@@ -7,6 +15,20 @@ import "swiper/css/bundle"
 import '../styles/swiper.css'
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter()
+
+  useEffect(() => {
+    const handleRouteChange = url => {
+      gtag.pageview(url)
+    }
+
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+
+  }, [router.events])
+
   return (
     <>
       <Head>
@@ -15,7 +37,8 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <Layout>
         <Component {...pageProps} />
-        <Analytics />
+        <VercelAnalytics />
+        <GoogleAnalytics />
       </Layout>
     </>
   )
