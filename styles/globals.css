@@ -9,6 +9,17 @@
     font-display: swap;
   }
 
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #c76e80;
+  }
+
+  ::selection {
+    color: white;
+    background: #c76e80;
+  }
+
   html,
   body {
     font-family: 'Roboto', sans-serif;
