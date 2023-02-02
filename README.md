@@ -22,7 +22,6 @@
       - Urilização de várias bibliotecas reforçando ainda mais a utilização do React
 
 # Autor: Junior Alves
-![LinkdIn](https://img.shields.io/badge/LinkedIn-Junior%20Alves-blue)
-![Instagram](https://img.shields.io/badge/Instagram-%40junioralvesbr4-%23e4405f)
+[![Linkedin](https://img.shields.io/badge/Linkedin-Junior%20Alves-blue)](https://www.linkedin.com/in/junior-alves-54559070/)
+[![Instagram](https://img.shields.io/badge/Instagram-%40junioralvesbr4-%23e4405f)](https://www.instagram.com/junioralvesbr4/)
 ![gmail](https://img.shields.io/badge/Gmail-jrnalves%40gmail.com-red)
-![Instagram](https://img.shields.io/badge/Instagram-%40junioralvesbr4-%23e4405f?style=for-the-badge&logo=Instagram&logoColor=white)
