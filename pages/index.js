@@ -29,7 +29,7 @@ export default function Home() {
           />
         </div>
 
-        <a href="#aboutme">
+        <a href="#sobremim">
           <FaAngleDoubleDown
             size={40}
             color="#ffffff"
@@ -41,7 +41,7 @@ export default function Home() {
 
       <main>
         {/* About Me */}
-        <section id="aboutme" className="py-5 flex flex-col items-center lg:flex-row-reverse md:justify-center">
+        <section id="sobremim" className="py-5 flex flex-col items-center lg:flex-row-reverse md:justify-center">
 
           <div className="relative w-[320px] h-[386px] md-[376px] md:h-[420px] lg:w-[467px] lg:h-[600px] lg:ml-10">
             <Image
@@ -76,7 +76,7 @@ export default function Home() {
             </p>
 
             <div className="mt-5 lg:mt-24">
-              <Link link="/aboutme" />
+              <Link link="/sobremim" />
             </div>
           </article>
         </section >
