@@ -12,7 +12,7 @@ const menu = {
   },
   about: {
     name: 'Sobre Mim',
-    path: '/aboutme'
+    path: '/sobremim'
   },
   services: [
     {
