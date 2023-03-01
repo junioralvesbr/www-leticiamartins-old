@@ -9,7 +9,7 @@ export default function AboutMe() {
   return (
     <>
       <Head>
-        <title>Leticia Martins - Sobre mim</title>
+        <title>Leticia Martins Personal Organizer - Sobre mim</title>
       </Head>
 
       <header className="relative h-screen" id="inicio">
@@ -27,8 +27,11 @@ export default function AboutMe() {
         <div
           className="text-primary-color font-bold absolute bottom-28 left-4 p-4 bg-pattern bg-no-repeat bg-[length:150px] sm:left-10 md:bg-[length:217px] sm:py-14 sm:px-8 lg:bottom-1/3 lg:left-1/4"
         >
-          <p>Olá,</p>
-          <h1 className="uppercase text-2xl md:text-4xl">Eu sou personal Organizer</h1>
+          <p>Olá, eu sou a</p>
+          <h1 className="uppercase text-2xl md:text-4xl">
+            Leticia Martins
+            <em className="capitalize"> - Personal Organizer</em>
+          </h1>
           <p>Eu transformo ambientes em lugares aconchegantes que facilitam e simplificam o seu dia dia</p>
         </div>
 
@@ -85,7 +88,7 @@ export default function AboutMe() {
             </p>
 
             <p className="mt-5 px-4">
-              Busquei me profissionalizar em personal organizer e atuo desde 2017, sempre com o apoio e incentivo de minha familia.
+              Busquei me profissionalizar em <em>personal organizer</em> e atuo desde 2017 em <strong>Maringá - PR</strong> oferecendo o melhor serviço de organização de ambientes, sempre com o apoio e incentivo de minha familia.
             </p>
 
           </article>
@@ -153,7 +156,7 @@ export default function AboutMe() {
                 <img src="/logomarca.svg" alt="" className="h-20" />
 
                 <p className="pt-6 max-w-[600px] lg:max-w-[500px]">
-                  Sou uma profissional completa, atendo clientes em Maringá/Pr e de toda região. Coordeno pessoalmente minha equipe que são bem capacitadas e treinadas no meu segmento.
+                  Sou uma profissional completa, <em>atendo clientes em Maringá - PR e de toda região</em>. Coordeno pessoalmente minha equipe que são bem capacitadas e treinadas no meu segmento.
                 </p>
                 <p className="pt-6 max-w-[600px] lg:max-w-[500px]">
                   Meu trabalho é detalhista e minucioso em cada detalhe da organização.

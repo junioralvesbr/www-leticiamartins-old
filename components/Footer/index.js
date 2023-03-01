@@ -42,7 +42,7 @@ export default function Footer() {
 
           <p className='text-secondary-color flex items-center mt-4 text-xl'>
             <SiGooglemaps className='mr-2' />
-            Maringá - Pr
+            <strong>Maringá - Pr</strong>
           </p>
         </div>
 

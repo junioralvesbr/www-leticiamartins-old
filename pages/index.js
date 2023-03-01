@@ -64,15 +64,15 @@ export default function Home() {
             </p>
 
             <p className="text-secondary-color text-justify font-medium leading-6 mt-5 lg:text-lg">
-              Sou a Leticia Martins, certificada em personal organizer. Desde 2017 atuo na organização de ambientes, proporcionando conforto, praticidade e tranquilidade às pessoas.
+              Sou a <em className='not-italic'>Leticia Martins, certificada em personal organizer</em>.<br></br> Desde 2017 atuo na organização de ambientes em Maringá, proporcionando conforto, praticidade e tranquilidade às pessoas.
             </p>
 
             <p className="text-secondary-color text-justify font-medium leading-6 mt-5 lg:text-lg">
-              Meu maior prazer é proporcionar a satisfação e o bem estar às pessoas através da organização.
+              Meu maior prazer <em className='not-italic'>é proporcionar a satisfação e o bem estar às pessoas</em> através da organização.
             </p>
 
             <p className="text-secondary-color text-justify font-medium leading-6 mt-5 lg:text-lg">
-              Portanto, organizar pra mim não é só dispôr um objeto num determinado local, vai muito mais além, é você ter FACILIDADE e SIMPLICIDADE no seu dia dia, através da organização.
+              Portanto, organizar pra mim não é só dispôr um objeto num determinado local, vai muito mais além, é você ter <strong>FACILIDADE</strong> e <strong>SIMPLICIDADE</strong> no seu dia dia, através da organização.
             </p>
 
             <div className="mt-5 lg:mt-24">
