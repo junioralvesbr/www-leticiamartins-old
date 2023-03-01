@@ -9,7 +9,7 @@ const whatsAppLink = `https://api.whatsapp.com/send?phone=${phone}&text=${messag
 
 export default function WhatssApp() {
   return (
-    <a href={whatsAppLink} className='flex flex-col fixed bottom-4 right-5 z-20 whatsapp ease-in-out'>
+    <a href={whatsAppLink} target='blank' className='flex flex-col fixed bottom-4 right-5 z-20 whatsapp ease-in-out'>
       <div className='bg-sixth-color w-12 h-12 rounded-full flex justify-center items-center self-end'>
         <FaWhatsapp className='text-primary-color text-3xl' />
       </div>
