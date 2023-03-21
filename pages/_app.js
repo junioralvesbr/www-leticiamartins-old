@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
+import ClarityAnalytics from '../components/ClarityAnalytics'
 
 // gtag google analytics
 import * as gtag from '../lib/gtag'
@@ -39,6 +40,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <VercelAnalytics />
         <GoogleAnalytics />
+        <ClarityAnalytics />
       </Layout>
     </>
   )
